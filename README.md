@@ -10,7 +10,7 @@
 
 *Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.*
 
-![RabbitMQ](https://github.com/Fameq/11.4-hw/blob/main/img/task1.png)
+![RabbitMQ](https://github.com/Fameq/11.04-hw/blob/main/img/task1.png)
 
 ---
 
@@ -31,8 +31,8 @@ $ pip install pika
 
 *В качестве решения домашнего задания приложите оба скриншота, сделанных на этапе выполнения.*
 
-![Producer](https://github.com/Fameq/11.4-hw/blob/main/img/task2_1.png)
-![Consumer](https://github.com/Fameq/11.4-hw/blob/main/img/task2_2.png)
+![Producer](https://github.com/Fameq/11.04-hw/blob/main/img/task2_1.png)
+![Consumer](https://github.com/Fameq/11.04-hw/blob/main/img/task2_2.png)
 
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
@@ -55,29 +55,29 @@ $ cat /etc/hosts
 
 *В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.*
 
-![Web](https://github.com/Fameq/11.4-hw/blob/main/img/task3_1.png)
-![Web](https://github.com/Fameq/11.4-hw/blob/main/img/task3_2.png)
-![Web](https://github.com/Fameq/11.4-hw/blob/main/img/task3_3.png)
+![Web](https://github.com/Fameq/11.04-hw/blob/main/img/task3_1.png)
+![Web](https://github.com/Fameq/11.04-hw/blob/main/img/task3_2.png)
+![Web](https://github.com/Fameq/11.04-hw/blob/main/img/task3_3.png)
 
 Также приложите вывод команды с двух нод:
 
 ```shell script
 $ rabbitmqctl cluster_status
 ```
-![Cluster](https://github.com/Fameq/11.4-hw/blob/main/img/task3_4.png)
+![Cluster](https://github.com/Fameq/11.04-hw/blob/main/img/task3_4.png)
 
 Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 
 ```shell script
 $ rabbitmqadmin get queue='hello'
 ```
-![RabbitMQ](https://github.com/Fameq/11.4-hw/blob/main/img/task3_5.png)
+![RabbitMQ](https://github.com/Fameq/11.04-hw/blob/main/img/task3_5.png)
 
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 *Приложите скриншот результата работы второго скрипта.*
 
-![RabbitMQ](https://github.com/Fameq/11.4-hw/blob/main/img/task3_6.png)
+![RabbitMQ](https://github.com/Fameq/11.04-hw/blob/main/img/task3_6.png)
 
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
